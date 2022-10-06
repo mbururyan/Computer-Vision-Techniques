@@ -8,7 +8,7 @@ import cv2 as cv
 
 # rescaling
 
-def rescaleFrame(frame, scale = 0.25):
+def rescaleFrame(frame, scale = 0.50):
     width = int(frame.shape[1] * scale)
     height = int(frame.shape[0] * scale)
 
